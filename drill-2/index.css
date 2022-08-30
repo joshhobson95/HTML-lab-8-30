@@ -28,6 +28,7 @@ body {
     
 }
 #three {
+    border-radius: 100px;
     background-color: aqua;
     height: 200px;
     width: 200px;
@@ -38,9 +39,40 @@ body {
 
 #Middle {
     border: 5px dotted black;
-    height: 250px;
+    height: 400px;
     width: 98%;
     position: relative;
     top: 40px;
     left: 15px;
+}
+
+#toenail {
+    background-color: rgb(230, 203, 165);
+    height: 275px;
+    width: 75%;
+    position: absolute;
+    top: 55px; 
+    left: 300px;
+    box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.788);
+
+}
+
+#Bottom {
+    border: 2px solid darkgrey;
+    height: 400px;
+    width: 30%;
+    position: relative;
+    top: 110px;
+    left: 900px;
+}
+
+#Hello {
+    font-size: 40pt;
+    color: blue;
+    text-align: center;
+    font-weight: 500;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    display: inline-block;
 }
