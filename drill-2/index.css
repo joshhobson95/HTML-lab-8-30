@@ -20,10 +20,10 @@ body {
 }
 #two {
     background-color: green;
-    height: 200px;
+    height: 220px;
     width: 600px;
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 200px;
     
 }
@@ -64,6 +64,7 @@ body {
     position: relative;
     top: 110px;
     left: 900px;
+    box-shadow: 5px 5px 2px grey;
 }
 
 #Hello {
@@ -74,5 +75,5 @@ body {
     position: absolute;
     top: 150px;
     left: 250px;
-    display: inline-block;
+    
 }
