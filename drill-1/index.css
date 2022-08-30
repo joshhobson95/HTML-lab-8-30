@@ -1,0 +1,40 @@
+body {
+    background-color: white;
+    margin: 0;
+}
+
+header {
+background-color: rgb(63, 62, 62);
+height: 175px;
+width: 100%;
+}
+
+#left { 
+    background-color: grey;
+    position: fixed;
+    height: 2000px;
+    width: 150px;
+    z-index: 2;
+}
+
+#right {
+    background-color: grey;
+    position: fixed;
+    top: 175px;
+    right: 0px;
+    height: 2000px;
+    width: 150px;
+    z-index: 2;
+    
+}
+
+
+footer {
+    background-color: black;
+    position: fixed;
+    height: 75px;
+    width: 100%;
+    margin: 0;
+    bottom: 0px;
+    z-index: 1;
+}
